@@ -11,7 +11,7 @@ VOLUME /tmp
 EXPOSE 8090
 
 # The application's jar file
-ARG JAR_FILE=hello-world-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+ARG JAR_FILE=hello-world-0.0.6-SNAPSHOT.jar
 
 # Add the application's jar to the container
 ADD ${JAR_FILE} app.jar
